@@ -104,3 +104,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Source other dotfiles
+source $HOME/.dotfiles/.fzf.zsh

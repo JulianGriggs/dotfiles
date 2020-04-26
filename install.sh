@@ -32,9 +32,9 @@ touch $HOME/.zsh_history
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Set up git preferences
+git config --global core.editor "subl -n -w"
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
-
-# Set up fzf
-source ~/.fzf.zsh

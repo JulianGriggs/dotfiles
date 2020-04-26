@@ -49,7 +49,7 @@ cask 'tor-browser'
 cask 'spotify'
 cask 'sourcetree'
 cask 'sequel-pro'
-cask 'f.lux'
+cask 'flux'
 
 # Quicklook
 cask 'qlcolorcode'
